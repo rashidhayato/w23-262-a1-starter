@@ -20,7 +20,7 @@
 // Define and assign numberBefore2 here
 
 // Using numberBefore1 and numberBefore2,
-// Define and assign numberAfter, using template literals, here
+// Define and assign numberAfter1, numberAfter2, numberAfter3, numberAfter4 using different arithmetic operators
 
 
 /************************************/
@@ -49,6 +49,18 @@ numberBefore1Output.innerText = numberBefore1;
 const numberBefore2Output = document.querySelector('.number-before-2');
 numberBefore2Output.innerText = numberBefore2;
 
-// Print Number After
-const numberAfterOutput = document.querySelector('.number-after');
-numberAfterOutput.innerText = numberAfter;
+// Print Number After 1
+const numberAfter1Output = document.querySelector('.number-after-1');
+numberAfter1Output.innerText = numberAfter1;
+
+// Print Number After 2
+const numberAfter2Output = document.querySelector('.number-after-2');
+numberAfter2Output.innerText = numberAfter2;
+
+// Print Number After 3
+const numberAfter3Output = document.querySelector('.number-after-3');
+numberAfter3Output.innerText = numberAfter3;
+
+// Print Number After 4
+const numberAfter4Output = document.querySelector('.number-after-4');
+numberAfter4Output.innerText = numberAfter4;
